@@ -14,6 +14,9 @@ public class test {
 */
 		String str="Abc";
 		System.out.println(str.substring(str.indexOf("(")+1,str.indexOf(")")));
+		
+		
+		//ogo
 	}
 
 }
