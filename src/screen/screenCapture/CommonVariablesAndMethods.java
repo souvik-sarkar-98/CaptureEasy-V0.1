@@ -33,7 +33,7 @@ import org.apache.poi.xwpf.usermodel.XWPFRun;
 
 public class CommonVariablesAndMethods
 {
-	public static String TempImageFolderPath=createFolder(System.getProperty("user.home")+"/CapturEasy/Temp");
+	public static String TempImageFolderPath=createFolder(System.getProperty("user.home")+"/CaptureEasy/Temp");
 	public static String Imageformat="png",ClipboardStatus="Useable",ErrorMessage="",Temp,DocumentPath;
 	public static JLabel l1,l2,lError;  
 	public static Frame f;
@@ -49,6 +49,7 @@ public class CommonVariablesAndMethods
 	public static BufferedImage buffimage;
 	public static boolean frameVisible=true;
 	public static boolean stopThread=false; 
+	public static String PropertyFilePath=System.getProperty("user.home")+"/CaptureEasy/Properties/Paths.properties";
 	
 	/***
 	 * 
